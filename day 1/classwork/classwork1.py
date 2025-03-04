@@ -1,0 +1,18 @@
+print("niakabulashvili")
+print("anamariakabulashvili")
+print("luka kabulashvili")
+print("giorgikabulashvili")
+print("tamunachinchalaze")
+print(111)
+print(71)
+print(77)
+print(345)
+print(786)
+print(203)
+print(790)
+print(234)
+print(654)
+print(654)
+print("საქათმეში შეპარულა მიშა გამოვიდა ბიძინა და თხლიშა")
+
+
