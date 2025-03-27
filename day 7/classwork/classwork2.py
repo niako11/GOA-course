@@ -1,0 +1,8 @@
+my_age = input("dawere heni asaki:")
+my_name = input("dawere heni saxeli:")
+print(my_age)
+print(my_name)
+my_brother = input("dawere saxeli da gvari:")
+my_sister = input("dawere heni saxeli da gvari,asaki")
+print(my_brother)
+print(my_sister)

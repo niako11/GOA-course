@@ -1,0 +1,6 @@
+cxoveli = input("dawere heni sayvareli cxoveli:")
+print(cxoveli)
+filmi = input("dawere heni sayvareli filmi:")
+print(filmi)
+feri = input("dawere heni sayvareli feri:")
+print(feri)
