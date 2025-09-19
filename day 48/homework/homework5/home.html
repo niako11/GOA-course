@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ნამუშევრების გაყიდვა</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+    
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2e8093; 
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .image-box {
+            position: relative;
+            width: 300px;
+            border: 2px solid #b0d4e3;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 100, 150, 0.1);
+            background-color: white;
+        }
+
+        .image-box img {
+            width: 100%;
+            display: block;
+        }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+            width: 100%;
+            background-color: rgba(0, 100, 150, 0.6);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>ნამუშევრების გაყიდვა</h1>
+
+    <div class="image-container">
+        <div class="image-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Starry Night">
+            <h2 class="overlay-text">300 ლარი</h2>
+        </div>
+
+        <div class="image-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/960px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg" alt="Bedroom">
+            <h2 class="overlay-text">550 ლარი</h2>
+        </div>
+
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkNQLCGDi9Yt6rqjjIryMbGBcvqkiVGHONsA&s" alt="Image 3">
+            <h2 class="overlay-text">260 ლარი</h2>
+        </div>
+
+        <div class="image-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCp26Aipcpe0_Urc6CN5NQCB0_rxjcCO089w&s" alt="Image 4">
+            <h2 class="overlay-text">370 ლარი</h2>
+        </div>
+    </div>
+
+</body>
+</html>
